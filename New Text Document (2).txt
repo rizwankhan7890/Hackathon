@@ -1,0 +1,58 @@
+!DOCTYPE html
+html lang=en
+head
+    meta charset=UTF-8
+    meta http-equiv=X-UA-Compatible content=IE=edge
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    link rel=stylesheet href=style.css
+    !-- link href=httpscdn.jsdelivr.netnpmbootstrap@5.1.0distcssbootstrap.min.css rel=stylesheet integrity=sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0pWe crossorigin=anonymous --
+    link href=httpscdn.jsdelivr.netnpmbootstrap@5.1.0distcssbootstrap.min.css rel=stylesheet integrity=sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0pWe crossorigin=anonymous
+
+    titleGhar Khawabititle
+head
+body
+    header
+        nav class=bg
+            div class=logo
+                h1Ghar Khawabih1
+            div
+            div class=menu
+                ul
+                    lia href=Homeali
+                    lia href=Menuali
+                    lia href=Eventsali
+                    lia href=Galleryali
+                    lia href=Aboutali
+                    lia href=Contactali
+                ul
+            div
+            divinput type=button value=Book A Table class=myButton bkdiv
+        nav
+    header
+    main
+    h3 class=heading1ENJOY YOUR HEALTHY DELICIOUS MEALh3
+    h1 class=heading2Treat Yourselfh1
+    p class=heading3I think we all need a sense of society, of knowing folks, of familiar faces and a degree of predictability... of stability. Going to my favourite cafe, that tiny restaurant, was my way of having that in my life. There are times when friends are distant, family too, and going there for a coffee gave me what my soul needed.p
+input type=button value=Explore Now class=heading4 myButton
+main
+!-- Main END --
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body
+html

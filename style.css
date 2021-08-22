@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+justify-content: space-around;
+}
+.menu ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-around;
+margin-right: 80px;
+}
+.logo{
+color: darkcyan;
+margin-top:20px;
+font-size: 20px;    
+}
+.bg{
+   background-color:rgb(70, 70, 70);
+}
+.menu ul li{
+     margin: 8px;
+     margin-top:25px;
+     
+}
+.menu ul li a{
+    text-decoration: none;
+     color: #fff;
+
+     font-size: 25px;
+}
+.menu ul li a:hover{
+    transition: all 0.5s;
+     color: rgb(128, 123, 123);
+     
+}
+.bk{
+    margin-top:20px;
+    margin-left: 15%;
+}
+
+html { 
+    background: url(bg4.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+/* dropdown */
+.dropbtn {
+    background-color: #3b3d3c;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #5b5f5b;}
+
+  /* end */
+main{
+    color: #fff;
+    position: absolute;
+    left: 29%;
+    top: 25%;
+    font-weight: bolder;
+    
+}
+
+.heading1{
+    position: absolute;
+    left: 8%;
+    top: 26%;
+    font-size:20px;
+}
+.heading2{
+    position: absolute;
+    left: 3%;
+    top: 36%;
+    font-size: 70px;
+}
+.heading3{
+    position: relative;
+    right: 10%;
+    margin-top:25%;
+    font-size: 20px;
+}
+.heading4{
+    position: absolute;
+    top: 100%;
+    left: 22%;
+}
+
+.myButton {
+	box-shadow: 0px 10px 10px -7px #ff9900;
+	background:linear-gradient(to bottom, #faa700 5%, #ffa200 100%);
+	background-color:#faa700;
+	border-radius:25px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ff8808;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ffa200 5%, #faa700 100%);
+	background-color:#ffa200;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* MAIN 2 */
+.m2{
+    margin-top:20%;
+}
+/* Login Form  */
